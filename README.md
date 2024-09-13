@@ -7,10 +7,6 @@ This project provides a Decision Tree Processor that allows you to define and ex
 - [Getting Started](#getting-started)
 - [Running Tests](#running-tests)
 - [Using the CLI Command](#using-the-cli-command)
-- [Examples](#examples)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -21,20 +17,9 @@ Ensure you have Node.js and npm installed on your machine. You also need to inst
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/decision-tree-processor.git
-   cd decision-tree-processor
-
-
+>   git clone https://github.com/yourusername/decision-tree-processor.git
+>   cd decision-tree-processor
 2. Install the dependencies
-```bash
-  npm install
-
-3. Running tests
-```bash
-  npx jest
-
-4. Using the CLI Command
-The CLI command allows you to process a decision tree defined in JSON format. The command is available through ts-node and can be executed as follows:
-```bash
-  ts-node src/cmd.ts process-tree -t '<JSON_STRING>'
+>  npm install;
+3. Using the CLI Command
+> ts-node src/cmd.ts process-tree -t '<JSON_STRING>'
